@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.head-color {
+  color: #0b1f44 !important;
+}
+.hero {
+  position: relative;
+  background-color: #6929ff; /* Background color */
+  background-image: url(assets/bg.png),
+    repeating-linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.18),
+      rgba(255, 255, 255, 0.18) 0.7px,
+      rgba(255, 255, 255, 0.1) 0.7px,
+      rgba(255, 255, 255, 0.1) 5px
+    );
+  background-repeat: no-repeat, repeat;
+  background-position: center right, center;
+  background-size: 50%;
+
+  color: white; /* Text color */
+  padding: 50px; /* Adjust as needed */
+}
+.nav-btn {
+  background-color: #6929ff;
+}
+.nav-btn:hover {
+  background-color: #36187d;
+}
+
+#changing-text {
+  border-bottom: 4px solid #ffab27;
+}
+
+.demo-bg {
+  background-color: #fffaf1 !important;
+}
+.card-hover {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px 0 rgba(154, 109, 109, 0.4);
+}
+.capitalize-h1 h1 {
+  font-size: 50px;
+}
+.testimonial-shadow {
+  box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.4);
+}
+.last-sec {
+  position: relative;
+  background-color: #6929ff; /* Background color */
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.18),
+    rgba(255, 255, 255, 0.18) 0.7px,
+    rgba(255, 255, 255, 0.1) 0.7px,
+    rgba(255, 255, 255, 0.1) 5px
+  );
+  background-repeat: no-repeat, repeat;
+  background-position: center right, center;
+  background-size: contain, auto;
+
+  color: white; /* Text color */
+  padding: 50px; /* Adjust as needed */
+}
